@@ -77,6 +77,12 @@ header div  div{
     margin-bottom: 2.5rem;
 }
 
+header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
 header div h1 {
     color: #fff;
     text-transform: uppercase;
@@ -269,7 +275,7 @@ main {
      
     .tarefa input:hover,
     .tarefa label:hover,
-    .tarefa button:hover {
+    .tarefa button :hover {
         cursor: pointer;
     }
 
