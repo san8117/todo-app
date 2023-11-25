@@ -108,7 +108,7 @@ main {
     display: flex;
     align-items:center ;
     gap: 0.75rem;
-    
+
     color: var(--text-color);
     font-size: 0.75rem;
 }
@@ -124,4 +124,11 @@ main {
     padding: 1.25rem;
     display: flex;
     justify-content: space-between;
+    font-size: 0.75rem;
+    color: var(--info-text-color)
+}
+
+.informacoes a{
+    text-decoration: none;
+    color: var(--info-text-color);
 }
