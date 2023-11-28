@@ -251,6 +251,10 @@ main {
     section.botoes {
         display: none;
     }
+    
+    .informacoes {
+        font-size: 0.875rem;
+    }
 
 
     .informacoes .botoes {
@@ -258,10 +262,6 @@ main {
         padding: 0;
         margin: 0;
         
-    }
-
-    .informacoes {
-        font-size: 0.875rem;
     }
 
    .informacoes a:hover {
