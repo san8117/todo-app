@@ -16,7 +16,19 @@ app.use(express.urlencoded({
 app.use(express.json())
 
 
+app.get('/Limpartarefas',(requisicao, reposta) => {
+    const sql = `
+        DELETE FROM tarefas
+    `
 
+        conexao.query(sql, (erro) => {
+            if(erro) {
+                return console.log(erro)
+            }
+
+            resposta.redirect('/')
+        })
+})
 
 
 app.post('/excluir', (requisicao, respostas) => {
@@ -35,7 +47,7 @@ app.post('/excluir', (requisicao, respostas) => {
         }
 
 
-        resposta.redirect('/')
+         resposta.redirect('/')
     })
 })
 
